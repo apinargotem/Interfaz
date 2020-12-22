@@ -1,0 +1,214 @@
+h1{
+    color:red;
+    font-size: 2cm;
+}
+
+
+  h3{
+      padding-top:2%;
+      padding-bottom:0.5%;
+      padding-left: 20%;
+      margin-bottom: -6%;
+      margin-top: -6%;
+      
+  }
+
+section{
+    background:#FAAC58;
+    display: inline-block;
+    width: 20%;
+    margin: 24px;   /** separación entre tablas**/
+    margin-top: 50px;
+    padding-right: 5px;
+    border: 4px solid #FE642E;
+    
+    
+}
+
+h2 {
+    color: blanchedalmond;
+    font-size: 36px; /** Tamaño de texto**/
+    text-align: center;
+    margin: 5%;
+    
+
+
+   
+}
+    
+.pre{
+    color:red;
+    font-size: 24px ;
+    text-align: center;
+
+}
+.cell{
+  width: 100%; /**pantalla completa**/
+    position:fixed;/** posicion fija del fondo**/
+    bottom:5px;
+    right:5px;
+    opacity:0.15;
+}
+
+.P40l{
+    padding: 18%;
+}
+
+.carac{
+    color:rgb(255, 136, 0);
+    font-size: 28px;
+    text-align: center;
+}
+.carac1{
+        color:rgb(255, 136, 0);
+        font-size: 28px;
+        
+       }
+
+.A80{
+    padding: 18%;
+    
+}
+ .btncom{
+
+    color:salmon;
+    position:relative; /** para sobreponer sobre fondo**/
+    margin: 100px;
+    text-decoration: none; /** quitar subrayado del atributo**/
+    font-style:oblique;
+    
+
+}
+button{
+    margin-bottom: 4px;
+    margin-top:-3px;
+    padding: 7px;
+   
+}
+
+.LG{
+   padding: 18%;
+}
+
+aside{
+    background:#FAAC58;
+    display: inline-block;
+    width: 20%;
+    margin: 24px;   /** separación entre tablas**/
+    margin-top: 50px;
+    padding-right: 5px;
+    border: 4px solid #FE642E;
+    
+}
+button:hover{
+    background: rgb(247, 100, 84);
+}
+
+	
+@media screen and (max-width: 1350px){
+    .contener{
+         width: 43%;
+     }
+     h2{
+         width: 100%;
+     }
+  
+     img {
+         max-width: 100%;
+       
+   
+     }
+     .cell{
+         width:100% ;
+         height:100%;
+  
+        }
+        .btncom {
+            padding: 5%;
+            margin:1% ;
+        }
+        @media screen and (max-width: 920px){
+            .contener{
+                 width: 42%;
+             }
+             h2{
+                 width: 100%;
+             }
+          
+             img {
+                 max-width: 100%;
+              
+                 
+         
+             }
+             .cell{
+                 width:100% ;
+                 height:100%;
+          
+                }
+                .btncom {
+                    padding: 5%;
+                    margin:1% ;
+                }
+            }
+            @media screen and (max-width: 880px){
+                .contener{
+                     width: 43%;
+                 }
+                 h2{
+                     width: 100%;
+                 }
+              
+                 img {
+                     max-width: 100%;
+                     
+                     
+             
+                 }
+                 .cell{
+                     width:100% ;
+                     height:100%;
+              
+                    }
+                    .btncom {
+                        padding: 5%;
+                        margin:1% ;
+                    }
+                    @media (max-width:600px){
+                        .contener{
+                            width:block;
+                           
+                        }
+
+                        }
+                  
+                }
+
+        
+    } 
+   
+   
+   
+   
+   
+   
+   
+   
+    
+       
+        
+    
+                
+             
+              
+            
+                    
+              
+    
+                          
+                          
+                                 
+                            
+                            
+                        
+                    
